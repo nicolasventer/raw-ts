@@ -1,6 +1,7 @@
 # raw-ts
 
-raw-ts is a lightweight tool that convert a file to a raw typscript string.
+raw-ts is a lightweight tool that convert a file to a raw typscript string.  
+*unraw-ts is the opposite tool that convert a raw typscript string to a file. (only raw-ts is documented since usage is the same)*
 
 # Usage
 

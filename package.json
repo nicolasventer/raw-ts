@@ -2,14 +2,15 @@
 	"name": "raw",
 	"module": "index.ts",
 	"devDependencies": {
-		"@types/bun": "latest"
+		"@types/bun": "1.1.9"
 	},
 	"peerDependencies": {
-		"typescript": "^5.0.0"
+		"typescript": "5.0.0"
 	},
 	"scripts": {
-		"dev": "bun run index.ts",
-		"build": "bun build index.ts --compile --outfile raw-ts.exe"
+		"devraw": "bun run raw.ts",
+		"devunraw": "bun run unraw.ts",
+		"build": "bun build raw.ts --compile --outfile raw-ts.exe && bun build unraw.ts --compile --outfile unraw-ts.exe"
 	},
 	"type": "module"
 }
